@@ -16,6 +16,11 @@
       --bg: #ffffff;
       --section-bg: #f8f9fa;
     }
+    .space-gray {
+  color: #86868b; /* Apple-style space gray */
+  font-weight: 600;
+}
+
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -104,6 +109,8 @@
       transition: all 0.2s ease;
     }
 
+    
+
     .btn.primary {
       background: var(--blue);
       color: white;
@@ -176,10 +183,11 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container">
-      <h1>
-        Human conversations,<br>
-        powered by intelligence.
-      </h1>
+<h1>
+  Human conversations,<br>
+  <span class="space-gray">powered by intelligence.</span>
+</h1>
+
       <p class="subtitle">
         <strong>Think. Speak. Converse.</strong><br>
         Converse is a multi-modal AI platform that enables natural dialogue,
