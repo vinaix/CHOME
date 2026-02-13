@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Converse Labs</title>
+  <title>Converse – Think. Speak. Wonder.</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -17,10 +17,9 @@
       --section-bg: #f8f9fa;
     }
     .space-gray {
-  color: #86868b; /* Apple-style space gray */
-  font-weight: 600;
-}
-
+      color: #86868b;
+      font-weight: 600;
+    }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -86,10 +85,11 @@
     }
 
     .subtitle {
-      font-size: 18px;
+      font-size: 20px;
       color: var(--muted);
       max-width: 700px;
       margin: 0 auto 40px;
+      font-weight: 500;
     }
 
     .actions {
@@ -108,8 +108,6 @@
       background: white;
       transition: all 0.2s ease;
     }
-
-    
 
     .btn.primary {
       background: var(--blue);
@@ -159,11 +157,18 @@
     }
 
     footer {
-      padding: 40px 20px;
+      padding: 48px 20px 32px;
       text-align: center;
       font-size: 13px;
       color: var(--muted);
       border-top: 1px solid var(--border);
+    }
+
+    .footer-quote {
+      font-style: italic;
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: #5f6368;
     }
   </style>
 </head>
@@ -172,9 +177,9 @@
   <!-- NAV -->
   <nav>
     <div class="nav-inner">
-      <div class="brand">Converse Labs</div>
+      <div class="brand">Converse</div>
       <div class="nav-links">
-        <a href="https://api.converselabs.in" target="_blank">API Docs</a>
+        <a href="#features">Features</a>
         <a href="mailto:Vinaycharyvelpula@gmail.com">Contact</a>
       </div>
     </div>
@@ -183,20 +188,18 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container">
-<h1>
-  Little conversations,<br>
-  <span class="space-gray">powered by intelligence.</span>
-</h1>
+      <h1>
+        Little conversations,<br>
+        <span class="space-gray">powered by intelligence.</span>
+      </h1>
 
       <p class="subtitle">
-        <strong>Think. Speak. Converse.</strong><br>
-        Converse is a multi-modal AI platform that enables natural dialogue,
-        vision understanding, speech synthesis, and real-time messaging —
-        all through a single, developer-friendly API.
+        <strong>Think. Speak. Converse.</strong>
       </p>
+
       <div class="actions">
-        <a class="btn primary" href="https://api.converselabs.in" target="_blank">Visit API Docs</a>
-        <a class="btn" href="mailto:Vinaycharyvelpula@gmail.com">Email Us</a>
+        <a class="btn primary" href="#features">Learn More</a>
+        <a class="btn" href="mailto:Vinaycharyvelpula@gmail.com">Get in Touch</a>
       </div>
     </div>
   </section>
@@ -204,78 +207,73 @@
   <!-- WHAT IS CONVERSE -->
   <section class="alt">
     <div class="container">
-      <h2 class="section-title">What is Converse API?</h2>
+      <h2 class="section-title">What is Converse?</h2>
       <p class="section-text">
-        Converse API is a modern backend platform built for conversational
-        applications. It combines conversational AI, image generation,
-        optical character recognition, text-to-speech, and real-time messaging
-        into a unified RESTful interface.
-        <br><br>
-        Designed with scalability and simplicity in mind, Converse lets
-        developers focus on building human-centric experiences while the
-        platform handles intelligence, media, and real-time communication.
+        Converse is a thinking companion for children and young minds — not just another chatbot.<br><br>
+
+        In a world full of instant answers, Converse gently refuses to hand over ready-made solutions.<br>
+        Instead, it asks better questions, draws visual analogies, tells stories, and creates playful challenges that help kids <strong>think deeper, imagine bigger, and stay curious longer</strong>.
       </p>
     </div>
   </section>
 
   <!-- FEATURES -->
-  <section>
+  <section id="features">
     <div class="container">
-      <h2 class="section-title">Core Capabilities</h2>
+      <h2 class="section-title">How Converse Helps Young Minds Grow</h2>
 
       <div class="features">
         <div class="feature">
-          <h3>Conversational AI</h3>
-          <p>Context-aware natural language conversations powered by advanced AI models.</p>
+          <h3>Socratic Questions</h3>
+          <p>Guides children to discover answers themselves through thoughtful, age-appropriate questions.</p>
         </div>
 
         <div class="feature">
-          <h3>Image Generation</h3>
-          <p>Automatic visual creation from text prompts to enrich conversations.</p>
+          <h3>Visual Imagination Sparks</h3>
+          <p>Creates custom pictures and visual metaphors to make abstract ideas feel alive and memorable.</p>
         </div>
 
         <div class="feature">
-          <h3>Optical Character Recognition</h3>
-          <p>Extract and understand text from images with AI-based explanations.</p>
+          <h3>Story-powered Learning</h3>
+          <p>Embeds knowledge inside fun, continuing stories instead of dry facts.</p>
         </div>
 
         <div class="feature">
-          <h3>Text-to-Speech</h3>
-          <p>Neural voice synthesis with natural pacing and multiple voice options.</p>
+          <h3>Voice Conversations</h3>
+          <p>Speak naturally — Converse listens and replies with warm, expressive voices.</p>
         </div>
 
         <div class="feature">
-          <h3>Real-time Messaging</h3>
-          <p>WhatsApp-style chat architecture with live delivery and offline fallback.</p>
+          <h3>Safe & Private</h3>
+          <p>No ads, no data selling, no addictive mechanics — built for well-being first.</p>
         </div>
 
         <div class="feature">
-          <h3>Push Notifications</h3>
-          <p>Reliable notifications for messages and system events using FCM.</p>
+          <h3>Curiosity Journal</h3>
+          <p>Saves wonderful questions, drawings, and “aha!” moments across sessions.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TECH -->
+  <!-- MISSION -->
   <section class="alt">
     <div class="container">
-      <h2 class="section-title">Built for Scale</h2>
+      <h2 class="section-title">Rebuilding Curiosity. One Mind at a Time.</h2>
       <p class="section-text">
-        Converse API is built using FastAPI with an asynchronous architecture,
-        Firebase Authentication for secure access, and Cloud Firestore for
-        real-time data synchronization.
-        <br><br>
-        The system follows clean service boundaries, RESTful principles,
-        and stateless authentication, making it suitable for production-grade
-        consumer and enterprise applications.
+        We believe the deepest learning happens when children are allowed to wonder, struggle a little, imagine wildly, and arrive at understanding themselves.<br><br>
+
+        Converse exists to protect and amplify that sacred process — not replace it.
       </p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    © 2026 Converse Labs · Built for humans, not prompts
+    <div class="footer-quote">
+The mind is not a vessel to be filled, but a fire to be kindled.
+    </div>
+© 2026 Converse · Curiosity deserves better
   </footer>
 
 </body>
